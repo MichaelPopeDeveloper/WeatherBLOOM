@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './index.css';
-
+// import styles from './index.css';
 
 function App({ message }) {
   return (

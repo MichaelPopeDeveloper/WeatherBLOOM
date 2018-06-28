@@ -18,6 +18,10 @@
   "author": "Michael Pope",
   "license": "MIT",
   "dependencies": {
+    "babel-preset-react": "^6.24.1",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
     "whatwg-fetch": "^2.0.3"
   },
   "devDependencies": {
@@ -33,7 +37,10 @@
     "cross-env": "^5.2.0",
     "css-loader": "^0.28.11",
     "eslint": "^4.19.1",
-    "eslint-plugin-import": "^2.12.0",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.10.0",
     "eslint-watch": "^3.1.5",
     "express": "^4.16.3",
     "extract-text-webpack-plugin": "^3.0.2",

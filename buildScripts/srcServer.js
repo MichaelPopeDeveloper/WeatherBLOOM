@@ -12,7 +12,7 @@ const compiler = webpack(config);
 
 app.use(require('webpack-dev-middleware')(compiler, {
   noInfo: true,
-  publicPath: config.output.publicPath
+  publicPath: config.output.publicPath,
 }));
 
 app.get('/', (req, res) => {
@@ -23,6 +23,6 @@ app.listen(port, (err) => {
   if (err) {
     console.log(err);
   } else {
-    open('http://localhost:' + port);
+    open(`http://localhost:${port}`);
   }
 });
