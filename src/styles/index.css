@@ -10,3 +10,53 @@ body {
   .full-width {
     width:100% !important;
   }
+
+  .home {
+    height: 100vh;
+    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+    display: flex;
+  }
+
+  .home h1:nth-child(n) {
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    max-width: 60vw;
+    padding: 1em;
+    line-height: 110%;
+    border: white 2px solid;
+  }
+
+  .full-height {
+    height: 60vh;
+    margin-top: 1em;
+  }
+
+  .full-height .uk-card:nth-child(n) {
+    height: 10em;
+    width: 80%;
+    margin-top: 1em;
+  }
+
+  .full-width {
+    width: 100%;
+  }
+
+  .footer {
+    height: 20vh;
+    background-color: black;
+  }
+
+  @media (max-width: 900px) {
+    .home h1:nth-child(n) {
+      font-size: 1.7em;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .home h1:nth-child(n) {
+      font-size: 1.3em;
+    }
+  }
+
+

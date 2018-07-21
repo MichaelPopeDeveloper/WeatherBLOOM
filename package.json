@@ -1,7 +1,7 @@
 {
-  "name": "javascript-dev-environment-course",
+  "name": "Weather Bloom",
   "version": "1.0.0",
-  "description": "Json package for javascript developement environment",
+  "description": "Json package for Weather Bloom",
   "main": "index.js",
   "scripts": {
     "prestart": "babel-node buildScripts/startMessage.js",
@@ -13,7 +13,8 @@
     "localtunnel": "lt --port 4050",
     "share": "npm-run-all --parallel opensrc localtunnel",
     "test": "mocha --reporter progress buildScripts/testSetup.js \"src/**/*.test.js\"",
-    "test:watch": "npm run test -- --watch"
+    "test:watch": "npm run test -- --watch",
+    "build": "react-scripts build"
   },
   "author": "Michael Pope",
   "license": "MIT",
@@ -26,6 +27,7 @@
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
+    "react-scripts": "^1.1.4",
     "uikit": "^3.0.0-rc.6",
     "whatwg-fetch": "^2.0.3"
   },
@@ -44,7 +46,7 @@
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^17.0.0",
     "eslint-plugin-import": "^2.13.0",
-    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-react": "^7.10.0",
     "eslint-watch": "^3.1.5",
     "express": "^4.16.3",
